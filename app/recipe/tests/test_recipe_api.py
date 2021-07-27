@@ -10,6 +10,7 @@ from core.models import Recipe, Tag, Ingredient
 from recipe.serializers import RecipeSerializer, RecipeDetailSerializer
 
 RECIPES_URL = reverse('recipe:recipe-list')
+TAGS_URL = reverse('recipe:tag-list')
 
 
 def image_upload_url(recipe_id):
